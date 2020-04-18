@@ -1,1 +1,2 @@
 puts 'こんにちわ！'
+puts 'test'

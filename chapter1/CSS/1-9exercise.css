@@ -30,7 +30,6 @@
   top: 0;
   left: 0;
   padding: 3px;
-  font-size: 20px;
   color: white;
   background-color: orange;
 }
@@ -38,6 +37,5 @@
   width: 280px;
 }
 .flow-item-headline {
-  font-size: large;
   margin: 10px 0;
 }

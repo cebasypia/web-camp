@@ -19,11 +19,10 @@ a {
   margin: 0 auto;
 }
 
-
 header {
   width: 100%;
   height: 70px;
-  background-color: #EC715F;
+  background-color: #ec715f;
 }
 
 .logo {
@@ -43,21 +42,21 @@ header {
   float: left;
   width: 120px;
   line-height: 70px;
-  color: #FAFAFA;
+  color: #fafafa;
   padding: 0 30px;
   list-style: none;
   font-size: 16px;
 }
 
 .nav-list a {
-  color: #FAFAFA;
+  color: #fafafa;
 }
 
 #mv {
   width: 100%;
   height: 650px;
   text-align: center;
-  color: #FAFAFA;
+  color: #fafafa;
   background-image: url(/img/mv.png);
   background-size: cover;
   background-position: center;
@@ -75,7 +74,7 @@ header {
 }
 
 #portfolio {
-  background-color: #ECEFF1;
+  background-color: #eceff1;
 }
 
 .heading {
@@ -86,12 +85,12 @@ header {
 }
 
 .heading::after {
-  content: "";
+  content: '';
   display: block;
   width: 70px;
   height: 3px;
   margin: 8px auto 0 auto;
-  background-color: #EC715F;
+  background-color: #ec715f;
 }
 
 .heading-text {
@@ -119,7 +118,7 @@ header {
   margin-right: 0;
 }
 
-.production:nth-child(-n+3) {
+.production:nth-child(-n + 3) {
   margin-top: 0;
 }
 
@@ -176,7 +175,7 @@ header {
 }
 
 #profile {
-  background-color: #ECEFF1;
+  background-color: #eceff1;
 }
 
 .profile-group {
@@ -247,17 +246,17 @@ header {
 footer {
   width: 100%;
   height: 60px;
-  background-color: #EC715F;
+  background-color: #ec715f;
   line-height: 60px;
 }
 
 .copyright {
   font-size: 16px;
-  color: #FAFAFA;
+  color: #fafafa;
   text-align: center;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   header {
     height: 50px;
   }
@@ -278,7 +277,7 @@ footer {
     height: 40px;
     font-size: 40px;
     line-height: 40px;
-    color: #FAFAFA;
+    color: #fafafa;
     margin-right: 5%;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -318,5 +317,66 @@ footer {
 
   .production {
     float: none;
+  }
+
+  #feature {
+    padding: 0 5%;
+  }
+
+  .strength-group {
+    width: 320px;
+  }
+
+  .strength:first-child {
+    margin-top: 0;
+  }
+
+  .strength {
+    float: none;
+  }
+
+  #profile {
+    padding: 0 5%;
+  }
+
+  .profile-group {
+    text-align: center;
+  }
+
+  .left-content {
+    float: none;
+    width: 100%;
+  }
+
+  .left-content-content {
+    width: 100%;
+  }
+
+  .description-title:first-child {
+    margin-top: 20px;
+  }
+
+  .right-content {
+    float: none;
+    width: 100%;
+  }
+
+  .right-content-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #contact {
+    padding: 0 5%;
+  }
+
+  .contact-group {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-content-content .fa {
+    font-size: 50px;
+    margin-right: 8px;
   }
 }
